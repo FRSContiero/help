@@ -1,0 +1,7 @@
+# Adição de comandos por atalho no terminal
+sudo gedit /home/[pasta usuario]/.bashrc # Abertura do arquivo onde se é colocado os atalhos
+alias "[atalho]"="[comando a ser executado]" # Adicionar esta linha ao final do arquivo
+
+smb://[caminho de rede] # Acesso de máquinas na rede utilizando do samba
+rm  -Rf [nome] # Exclusão de pastas sem questionamento
+apt-cache search [nome] # Pesquisa de softwares para a versão da distro
